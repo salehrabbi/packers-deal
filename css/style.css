@@ -374,3 +374,31 @@ h3 {
   margin: 0;
   line-height: 1.375;
 }
+
+/*======================================= best-packer-mover ===================================*/
+.best-packer-mover {
+  padding-bottom: 30px;
+}
+.best-packer-mover p {
+  margin: 0;
+  font-size: 18px;
+  font-style: italic;
+  line-height: 2;
+  font-weight: 300;
+}
+
+/*======================================= footer-bottm ===================================*/
+.footer-bottm {
+  color: #212121;
+  padding: 80px 0;
+}
+.footer-bottm h4 {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0;
+  margin-bottom: 15px;
+}
+.footer-bottm p {
+  line-height: 1.6875;
+  margin-bottom: 20px;
+}

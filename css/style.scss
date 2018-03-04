@@ -3,6 +3,7 @@ sans-serif;
 $blue: #377fc2;
 $black: #2d3436;
 $gray: #e3e3e3;
+$white: #fff;
 body,
 h1,
 h2,
@@ -112,7 +113,7 @@ h3 {
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                background: #fff;
+                background: $white;
                 z-index: 2;
                 &:after {
                     content: "";
@@ -145,7 +146,7 @@ h3 {
                         width: 90%;
                         height: 90%;
                         border-radius: 100%;
-                        background: #fff;
+                        background: $white;
                     }
 
                     span {
@@ -242,7 +243,7 @@ h3 {
     transition: .3s;
     text-transform: uppercase;
     &:hover {
-        color: #fff;
+        color: $white;
         background: $blue;
     }
 }
@@ -288,12 +289,12 @@ h3 {
 /*======================================= achivement ===================================*/
 
 .heading-2 {
-    color: #fff;
+    color: $white;
     padding: 40px 0;
     h2 {
         margin: 0;
         font-size: 30px;
-        color: #fff;
+        color: $white;
         margin-bottom: 30px;
     }
     p {
@@ -305,7 +306,7 @@ h3 {
 
 .achivement {
     background: $blue;
-    color: #fff;
+    color: $white;
     padding-bottom: 40px;
     .col-md-3 {
         border-right: 1px solid #72a5d4;
@@ -370,5 +371,31 @@ h3 {
                 line-height: (22/16);
             }
         }
+    }
+}
+/*======================================= best-packer-mover ===================================*/
+.best-packer-mover{
+    padding-bottom: 30px;
+    p{
+        margin: 0;
+        font-size: 18px;
+        font-style: italic;
+        line-height: (36/18);
+        font-weight: 300;
+    }
+}
+/*======================================= footer-bottm ===================================*/
+.footer-bottm{
+    color: #212121;
+    padding: 80px 0;
+    h4{
+        font-size: 18px;
+        font-weight: 700;
+        margin: 0;
+        margin-bottom: 15px;
+    }
+    p{
+        line-height: (27/16);
+        margin-bottom: 20px;
     }
 }
