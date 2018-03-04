@@ -384,6 +384,66 @@ h3 {
         font-weight: 300;
     }
 }
+/*======================================= support ===================================*/
+.support{
+    color: $white;
+    background: linear-gradient(to right, #81b5e2 60%, $blue 40%);
+    .item{
+        padding-bottom: 20px;
+        min-height: 174px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 10px;
+    }
+    .operator{
+        background: #81b5e2;
+    }
+    .patner{
+        background: $blue;
+    }
+    
+    p{
+        font-size: 18px;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin: 10px 0;
+    }
+}
+.tab{
+    color: $blue;
+    background: $white;
+    border-radius: 0;
+    min-width: 217px;
+    padding: 8px 12px;
+    font-weight: 600;
+    font-size: 18px;
+    transform: .3s;
+    border: 2px solid transparent;
+    &:hover{
+        background: $blue;
+        color: $white;
+        border-color: $white;
+    }
+}
+.support.lightblue{
+    background: linear-gradient(to left, #81b5e2 60%, $blue 40%);
+    .patner{
+        background: #81b5e2;
+    }
+    .operator{
+        background: $blue;
+    }
+}
+.support.blue{
+    background: linear-gradient(to right, #81b5e2 60%, $blue 40%);
+    .operator{
+        background: #81b5e2;
+    }
+    .patner{
+        background: $blue;
+    }
+}
 /*======================================= footer-bottm ===================================*/
 .footer-bottm{
     color: #212121;

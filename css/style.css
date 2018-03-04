@@ -387,6 +387,79 @@ h3 {
   font-weight: 300;
 }
 
+/*======================================= support ===================================*/
+.support {
+  color: #fff;
+  background: -webkit-gradient(linear, left top, right top, color-stop(60%, #81b5e2), color-stop(40%, #377fc2));
+  background: linear-gradient(to right, #81b5e2 60%, #377fc2 40%);
+}
+.support .item {
+  padding-bottom: 20px;
+  min-height: 174px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 10px;
+}
+.support .operator {
+  background: #81b5e2;
+}
+.support .patner {
+  background: #377fc2;
+}
+.support p {
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 10px 0;
+}
+
+.tab {
+  color: #377fc2;
+  background: #fff;
+  border-radius: 0;
+  min-width: 217px;
+  padding: 8px 12px;
+  font-weight: 600;
+  font-size: 18px;
+  -webkit-transform: .3s;
+          transform: .3s;
+  border: 2px solid transparent;
+}
+.tab:hover {
+  background: #377fc2;
+  color: #fff;
+  border-color: #fff;
+}
+
+.support.lightblue {
+  background: -webkit-gradient(linear, right top, left top, color-stop(60%, #81b5e2), color-stop(40%, #377fc2));
+  background: linear-gradient(to left, #81b5e2 60%, #377fc2 40%);
+}
+.support.lightblue .patner {
+  background: #81b5e2;
+}
+.support.lightblue .operator {
+  background: #377fc2;
+}
+
+.support.blue {
+  background: -webkit-gradient(linear, left top, right top, color-stop(60%, #81b5e2), color-stop(40%, #377fc2));
+  background: linear-gradient(to right, #81b5e2 60%, #377fc2 40%);
+}
+.support.blue .operator {
+  background: #81b5e2;
+}
+.support.blue .patner {
+  background: #377fc2;
+}
+
 /*======================================= footer-bottm ===================================*/
 .footer-bottm {
   color: #212121;
