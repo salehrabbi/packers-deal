@@ -333,3 +333,42 @@ h3 {
         }
     }
 }
+
+/*======================================= question ===================================*/
+
+.question {
+    padding-bottom: 70px;
+    .heading {
+        padding-bottom: 30px;
+    }
+    .item {
+        padding: 40px 0;
+        .icon {
+            background: $blue;
+            width: 100px;
+            height: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+            float: left;
+        }
+        .text {
+            float: left;
+            width: calc(100% - 100px);
+            padding-left: 20px;
+            a {
+                margin: 0;
+                font-size: 18px;
+                line-height: (18/18);
+                margin-bottom: 15px;
+                color: $black;
+                display: inline-block;
+            }
+            p {
+                margin: 0;
+                line-height: (22/16);
+            }
+        }
+    }
+}

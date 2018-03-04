@@ -81,4 +81,14 @@
     .mover-packers ul.packeg-list li a::after {
         width: 100%;
     }
+    /*======================================= question ===================================*/
+    .question .item .text {
+        padding-left: 0;
+        width: 100%;
+        padding-top: 30px;
+    }
+    .question .item .icon {
+        margin: 0 auto;
+        float: none;
+    }
 }

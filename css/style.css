@@ -330,3 +330,47 @@ h3 {
   font-weight: 18px;
   margin: 0;
 }
+
+/*======================================= question ===================================*/
+.question {
+  padding-bottom: 70px;
+}
+.question .heading {
+  padding-bottom: 30px;
+}
+.question .item {
+  padding: 40px 0;
+}
+.question .item .icon {
+  background: #377fc2;
+  width: 100px;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 50%;
+  float: left;
+}
+.question .item .text {
+  float: left;
+  width: calc(100% - 100px);
+  padding-left: 20px;
+}
+.question .item .text a {
+  margin: 0;
+  font-size: 18px;
+  line-height: 1;
+  margin-bottom: 15px;
+  color: #2d3436;
+  display: inline-block;
+}
+.question .item .text p {
+  margin: 0;
+  line-height: 1.375;
+}
