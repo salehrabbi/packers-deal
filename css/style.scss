@@ -14,6 +14,9 @@ h6 {
     color: $black;
 }
 
+body {
+    font-size: 16px;
+}
 
 h1,
 h2,
@@ -223,7 +226,6 @@ h3 {
                 color: $black;
             }
             p {
-                font-size: 16px;
                 line-height: (21/16);
                 margin: 8px 0 25px;
             }
@@ -275,11 +277,59 @@ h3 {
                     bottom: 0;
                 }
             }
-            p{
-                font-size: 16px;
+            p {
                 line-height: (21/16);
                 margin: 0;
             }
+        }
+    }
+}
+
+/*======================================= achivement ===================================*/
+
+.heading-2 {
+    color: #fff;
+    padding: 40px 0;
+    h2 {
+        margin: 0;
+        font-size: 30px;
+        color: #fff;
+        margin-bottom: 30px;
+    }
+    p {
+        line-height: (30/16);
+        max-width: 509px;
+        margin: 0 auto;
+    }
+}
+
+.achivement {
+    background: $blue;
+    color: #fff;
+    padding-bottom: 40px;
+    .col-md-3 {
+        border-right: 1px solid #72a5d4;
+        &:last-child {
+            border: none;
+        }
+    }
+    .item {
+        text-align: center;
+        height: 100%;
+
+        padding: 10px 0;
+        img {
+            max-width: 100%;
+        }
+        .counter {
+            font-weight: 700;
+            font-size: 25px;
+            margin: 12px 0;
+        }
+        p {
+            font-weight: 300;
+            font-weight: 18px;
+            margin: 0;
         }
     }
 }

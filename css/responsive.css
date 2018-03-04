@@ -48,6 +48,15 @@
   .mover-packers ul.packeg-list li a img {
     width: 70%;
   }
+
+  /*======================================= achivement ===================================*/
+  .achivement .col-md-3 {
+    border-right: none;
+  }
+
+  .achivement .item {
+    padding: 15px 0;
+  }
 }
 @media (max-width: 575px) {
   /*======================================= mover-packers ===================================*/

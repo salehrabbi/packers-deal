@@ -2,7 +2,7 @@
     .mover-packers {
         .container {
             position: relative;
-            &:after{
+            &:after {
                 content: "";
                 position: absolute;
                 top: 11%;
@@ -46,6 +46,13 @@
         img {
             width: 70%;
         }
+    }
+    /*======================================= achivement ===================================*/
+    .achivement .col-md-3 {
+        border-right: none;
+    }
+    .achivement .item {
+        padding: 15px 0;
     }
 }
 

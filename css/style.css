@@ -9,6 +9,10 @@ h6 {
   color: #2d3436;
 }
 
+body {
+  font-size: 16px;
+}
+
 h1,
 h2,
 h3 {
@@ -225,7 +229,6 @@ h3 {
   color: #2d3436;
 }
 .blog-content .content .text p {
-  font-size: 16px;
   line-height: 1.3125;
   margin: 8px 0 25px;
 }
@@ -277,7 +280,53 @@ h3 {
   bottom: 0;
 }
 .features .item .text p {
-  font-size: 16px;
   line-height: 1.3125;
+  margin: 0;
+}
+
+/*======================================= achivement ===================================*/
+.heading-2 {
+  color: #fff;
+  padding: 40px 0;
+}
+.heading-2 h2 {
+  margin: 0;
+  font-size: 30px;
+  color: #fff;
+  margin-bottom: 30px;
+}
+.heading-2 p {
+  line-height: 1.875;
+  max-width: 509px;
+  margin: 0 auto;
+}
+
+.achivement {
+  background: #377fc2;
+  color: #fff;
+  padding-bottom: 40px;
+}
+.achivement .col-md-3 {
+  border-right: 1px solid #72a5d4;
+}
+.achivement .col-md-3:last-child {
+  border: none;
+}
+.achivement .item {
+  text-align: center;
+  height: 100%;
+  padding: 10px 0;
+}
+.achivement .item img {
+  max-width: 100%;
+}
+.achivement .item .counter {
+  font-weight: 700;
+  font-size: 25px;
+  margin: 12px 0;
+}
+.achivement .item p {
+  font-weight: 300;
+  font-weight: 18px;
   margin: 0;
 }
