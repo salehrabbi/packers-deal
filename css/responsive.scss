@@ -1,3 +1,21 @@
+@media (min-width:1200px) {
+    .mover-packers {
+        .container {
+            position: relative;
+            &:after{
+                content: "";
+                position: absolute;
+                top: 11%;
+                right: 0;
+                width: 141px;
+                height: 303px;
+                background: url(../images/02.png) no-repeat;
+                background-size: 100% 100%;
+            }
+        }
+    }
+}
+
 @media (max-width:991px) {
     /*======================================= mover-packers ===================================*/
     .mover-packers ul.packeg-list li {
