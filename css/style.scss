@@ -1,0 +1,10 @@
+$f: 'Open Sans', sans-serif;
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+@media (min-width:1200px){
+    .container{
+        width: 1195px;
+    }
+}
