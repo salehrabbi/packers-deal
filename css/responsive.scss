@@ -1,4 +1,18 @@
+@media (min-width:992px) {
+    /*======================================= main-footer ===================================*/
+    .main-footer .footer-menu {
+        width: 43%;
+    }
+    .main-footer .copy {
+        width: 23%;
+    }
+    .main-footer .social {
+        width: 34%;
+    }
+}
+
 @media (min-width:1200px) {
+    /*======================================= mover-packers ===================================*/
     .mover-packers {
         .container {
             position: relative;
@@ -20,6 +34,13 @@
     /*======================================= mover-packers ===================================*/
     .mover-packers ul.packeg-list li {
         padding-right: 67px;
+    }
+    /*======================================= main-footer ===================================*/
+    .widget-bottom{
+        text-align: center;
+        > div{
+            padding: 5px 0;
+        }
     }
 }
 
@@ -64,7 +85,7 @@
     .mover-packers ul.packeg-list li {
         padding-right: 39px;
     }
-    .support.no-background{
+    .support.no-background {
         background: none;
     }
 }
