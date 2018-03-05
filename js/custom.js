@@ -5,6 +5,12 @@ jQuery(document).ready(function ($) {
     });
 });
 
+jQuery(function () {
+    jQuery("a.play").YouTubePopUp({
+        autoplay: 1
+    }); // Disable autoplay
+});
+
 $('.patner').hover(function () {
     $('.support').addClass('lightblue'); // add class when mouseover happen
 }, function () {
@@ -15,3 +21,22 @@ $('.operator').hover(function () {
 }, function () {
     $('.support').removeClass('blue'); // remove class when mouseout happen
 });
+$(".video-carosual .background .overlay").height($(".video").outerHeight(true));
+
+$('.video-carosual').owlCarousel({
+    nav: false,
+    dots: true,
+    autoplay: true,
+    autoplayHoverPause: true,
+    rewind: true,
+    loop:true,
+    margin:0,
+    responsiveClass:true,
+    
+    responsive:{
+        0:{
+            items:1
+        }
+    }
+})
+

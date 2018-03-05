@@ -36,11 +36,21 @@
         padding-right: 67px;
     }
     /*======================================= main-footer ===================================*/
-    .widget-bottom{
+    .widget-bottom {
         text-align: center;
-        > div{
+        > div {
             padding: 5px 0;
         }
+    }
+    /*======================================= video ===================================*/
+    .video-carosual .background h3 {
+        font-size: 22px;
+    }
+    .video-carosual .background p {
+        font-size: 14px;
+    }
+    .video-carosual .background .overlay {
+        padding-top: 210px;
     }
 }
 
@@ -74,6 +84,29 @@
     }
     .achivement .item {
         padding: 15px 0;
+    }
+    /*======================================= video ===================================*/
+    .video-carosual {
+        height: auto !important;
+        width: 100%;
+        clear: both;
+        position: static;
+    }
+    .video-carosual .background .overlay {
+        height: auto !important;
+        padding: 150px 0;
+    }
+    .video-carosual .background h3 {
+        font-size: 28px;
+    }
+    .video-carosual .background p {
+        font-size: 16px;
+    }
+    .video-carosual .owl-dots {
+        right: 0;
+        left: 0;
+        margin: 0 auto;
+        text-align: center;
     }
 }
 
