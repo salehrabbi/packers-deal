@@ -11,6 +11,18 @@ jQuery(function () {
     }); // Disable autoplay
 });
 
+jQuery(document).ready(function () {
+    jQuery('#vmap').vectorMap({
+        map: 'world_en',
+        enableZoom: false,
+        selectedColor: '#2b95e6',
+        hoverColor: '#2b95e6',
+        backgroundColor: null,
+        color: '#87c2ff',
+        selectedRegions: ['CA','MX','AK','RU','UK','BD','PK','AU','BR','CN','SA'],
+    });
+});
+
 $('.patner').hover(function () {
     $('.support').addClass('lightblue'); // add class when mouseover happen
 }, function () {
@@ -29,14 +41,13 @@ $('.video-carosual').owlCarousel({
     autoplay: true,
     autoplayHoverPause: true,
     rewind: true,
-    loop:true,
-    margin:0,
-    responsiveClass:true,
-    
-    responsive:{
-        0:{
-            items:1
+    loop: true,
+    margin: 0,
+    responsiveClass: true,
+
+    responsive: {
+        0: {
+            items: 1
         }
     }
 })
-

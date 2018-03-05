@@ -54,6 +54,10 @@
   .video-carosual .background .overlay {
     padding-top: 210px;
   }
+
+  #vmap {
+    height: 430px;
+  }
 }
 @media (max-width: 767px) {
   /*======================================= mover-packers ===================================*/
@@ -121,6 +125,11 @@
     margin: 0 auto;
     text-align: center;
   }
+
+  /*======================================= world-map ===================================*/
+  #vmap {
+    height: 336px;
+  }
 }
 @media (max-width: 575px) {
   /*======================================= mover-packers ===================================*/
@@ -165,5 +174,10 @@
   .question .item .icon {
     margin: 0 auto;
     float: none;
+  }
+
+  /*======================================= world-map ===================================*/
+  #vmap {
+    height: 223px;
   }
 }
