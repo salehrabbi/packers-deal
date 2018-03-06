@@ -41,9 +41,9 @@
 })(jQuery);
 
 
-$(document).scroll(function(e){
+$(document).scroll(function (e) {
     var scrollTop = $(document).scrollTop();
-    if(scrollTop > 0){
+    if (scrollTop > 0) {
         console.log(scrollTop);
         $('.main-header').removeClass('navbar-static-top').addClass('navbar-fixed-top');
     } else {
@@ -52,7 +52,13 @@ $(document).scroll(function(e){
 });
 
 
+$('body').addClass('preloader-active');
 
+$(window).on('load', function () {
+    $('.preloader').fadeOut();
+    $('.preloader-spinner').delay(350).fadeOut('slow');
+    $('body').removeClass('preloader-active');
+});
 
 
 
@@ -77,7 +83,7 @@ jQuery(document).ready(function () {
         hoverColor: '#2b95e6',
         backgroundColor: null,
         color: '#87c2ff',
-        selectedRegions: ['CA','MX','AK','RU','UK','BD','PK','AU','BR','CN','SA'],
+        selectedRegions: ['CA', 'MX', 'AK', 'RU', 'UK', 'BD', 'PK', 'AU', 'BR', 'CN', 'SA'],
     });
 });
 
@@ -121,7 +127,7 @@ $('.client-review').owlCarousel({
     responsiveClass: true,
 
     responsive: {
-        0:{
+        0: {
             items: 1
         },
         992: {
@@ -129,8 +135,3 @@ $('.client-review').owlCarousel({
         }
     }
 })
-
-
-
-
-
