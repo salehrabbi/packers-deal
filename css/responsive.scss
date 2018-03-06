@@ -30,6 +30,28 @@
     }
 }
 
+@media (max-width:1199px) {
+    .main-header .navbar-nav > li > a {
+        font-size: 16px;
+    }
+    .main-header .item {
+        width: 50%;
+        padding: 0 5px;
+        border: none !important;
+    }
+    .main-header .item.phone {
+        display: none;
+    }
+    .main-header .item.call i {
+        font-size: 26px;
+        line-height: 35px;
+    }
+    .main-header .item.call a {
+        width: calc(100% - 26px);
+    }
+}
+
+
 @media (max-width:991px) {
     /*======================================= mover-packers ===================================*/
     .mover-packers ul.packeg-list li {
@@ -54,6 +76,9 @@
     }
     #vmap {
         height: 430px;
+    }
+    .main-header .item {
+        display: none;
     }
 }
 
@@ -114,6 +139,38 @@
     /*======================================= world-map ===================================*/
     #vmap {
         height: 336px;
+    }
+    .navbar-default .navbar-toggle {
+        border-color: #377fc2;
+        margin-top: 13px;
+    }
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #377fc2;
+    }
+    .navbar-default .navbar-toggle:focus,
+    .navbar-default .navbar-toggle:hover {
+        background-color: #377fc2;
+        .icon-bar {
+            background-color: #fff;
+        }
+    }
+    .navbar-toggle[aria-expanded="true"] {
+        .icon-bar-2 {
+            opacity: 0;
+        }
+        .icon-bar-1 {
+            transform: rotate(135deg);
+            position: relative;
+            top: 6px;
+        }
+        .icon-bar-3 {
+            transform: rotate(45deg);
+            position: relative;
+            top: -6px;
+        }
+    }
+    .main-header .flex-center {
+        display: block;
     }
 }
 
