@@ -474,6 +474,63 @@ h3 {
   height: 585px;
 }
 
+/*======================================= review ===================================*/
+.client-review {
+  padding-bottom: 20px;
+}
+.client-review .img {
+  float: left;
+}
+.client-review .img img {
+  width: 110px;
+  height: 109px;
+  border-radius: 50%;
+}
+.client-review .text {
+  float: left;
+  width: calc(100% - 110px);
+  padding-left: 20px;
+}
+.client-review .text h4 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 700;
+}
+.client-review .text h5 {
+  margin: 0;
+  font-size: 18px;
+  color: #377fc2;
+  line-height: 1.3888888889;
+  margin: 5px 0;
+  text-transform: uppercase;
+}
+.client-review .text p {
+  font-size: 14px;
+  line-height: 1.7857142857;
+  border-bottom: 1px solid #ededed;
+  padding-bottom: 20px;
+}
+.client-review .star small {
+  font-size: 18px;
+  font-weight: 600;
+}
+.client-review .star ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  float: right;
+  text-align: right;
+}
+.client-review .star ul li {
+  display: inline-block;
+}
+.client-review .star ul li i {
+  color: #fac917;
+}
+.client-review .star ul li i.far {
+  color: #2d3436;
+}
+
 /*======================================= best-packer-mover ===================================*/
 .best-packer-mover {
   padding-bottom: 30px;

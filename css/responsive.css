@@ -144,6 +144,12 @@
   .support.no-background {
     background: none;
   }
+
+  /*======================================= review ===================================*/
+  .client-review .star ul {
+    float: left;
+    text-align: left;
+  }
 }
 @media (max-width: 479px) {
   /*======================================= mover-packers ===================================*/
@@ -179,5 +185,24 @@
   /*======================================= world-map ===================================*/
   #vmap {
     height: 223px;
+  }
+
+  /*======================================= review ===================================*/
+  .client-review .star small {
+    font-size: 16px;
+  }
+
+  .client-review .img {
+    float: none;
+    margin-bottom: 20px;
+  }
+
+  .client-review .img img {
+    margin: 0 auto;
+  }
+
+  .client-review .text {
+    width: 100%;
+    padding-left: 0;
   }
 }

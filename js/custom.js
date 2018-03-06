@@ -51,3 +51,23 @@ $('.video-carosual').owlCarousel({
         }
     }
 })
+
+$('.client-review').owlCarousel({
+    nav: false,
+    dots: false,
+    autoplay: true,
+    autoplayHoverPause: true,
+    rewind: true,
+    loop: true,
+    margin: 10,
+    responsiveClass: true,
+
+    responsive: {
+        0:{
+            items: 1
+        },
+        992: {
+            items: 2
+        }
+    }
+})
