@@ -29,6 +29,7 @@
   }
 }
 @media (max-width: 1199px) {
+  /*======================================= main-header ===================================*/
   .main-header .navbar-nav > li > a {
     font-size: 16px;
   }
@@ -39,7 +40,8 @@
     border: none !important;
   }
 
-  .main-header .item.phone {
+  .main-header .item.phone,
+  .slider .slider-right .man-pic {
     display: none;
   }
 
@@ -50,6 +52,10 @@
 
   .main-header .item.call a {
     width: calc(100% - 26px);
+  }
+
+  .slider .slider-right ul {
+    width: 100%;
   }
 }
 @media (max-width: 991px) {
@@ -83,8 +89,17 @@
     height: 430px;
   }
 
+  /*======================================= main-header ===================================*/
   .main-header .item {
     display: none;
+  }
+
+  .slider-right, .slider-form h5 {
+    display: none;
+  }
+
+  .slider-form label {
+    width: 25%;
   }
 }
 @media (max-width: 767px) {
@@ -159,6 +174,7 @@
     height: 336px;
   }
 
+  /*======================================= main-header ===================================*/
   .navbar-default .navbar-toggle {
     border-color: #377fc2;
     margin-top: 13px;
@@ -196,6 +212,24 @@
   .main-header .flex-center {
     display: block;
   }
+
+  .slider-form label {
+    width: 50%;
+  }
+
+  .slider .slider-text h1 {
+    font-size: 50px;
+  }
+
+  .slider .slider-text p {
+    margin: 30px 0;
+  }
+
+  .slider .overlay {
+    min-height: 650px;
+    padding-bottom: 100px;
+    padding-top: 90px;
+  }
 }
 @media (max-width: 575px) {
   /*======================================= mover-packers ===================================*/
@@ -215,6 +249,10 @@
   .client-review .star ul {
     float: left;
     text-align: left;
+  }
+
+  .slider .slider-text h1 {
+    font-size: 40px;
   }
 }
 @media (max-width: 479px) {
@@ -270,5 +308,23 @@
   .client-review .text {
     width: 100%;
     padding-left: 0;
+  }
+
+  .slider-form label {
+    width: 100%;
+  }
+
+  .slider .slider-text h1 {
+    font-size: 29px;
+  }
+
+  .slider .slider-text p {
+    margin: 15px 0;
+    font-size: 16px;
+  }
+
+  .slider .overlay {
+    padding-bottom: 253px;
+    padding-top: 100px;
   }
 }
