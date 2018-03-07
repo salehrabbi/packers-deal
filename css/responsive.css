@@ -230,6 +230,10 @@
     padding-bottom: 100px;
     padding-top: 90px;
   }
+
+  .navbar-default .navbar-collapse {
+    background: #fff;
+  }
 }
 @media (max-width: 575px) {
   /*======================================= mover-packers ===================================*/
